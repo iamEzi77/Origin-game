@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+.slider-top{
+    position: relative;
+    top: 2rem;
+}
+
+.bgimage{
+    background-image:url("../images/fourth_banner_bg.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+} 
+.home-image img{
+    height: 100%;
+    width: 100%;
+    background-position: right bottom;
+}
+
+
+.header .box-container .box .slider-content{
+    position: relative;
+    left: 12%;
+    width: 70%;
+    font-size: large;
+    
+}
+.bg-image .main-container{
+    position: relative;
+}
+
+.bg-image .box-container .box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-right: -15px;
+}
+.header .box-container .box .slider-content h6{
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.9rem;
+    padding: 0;
+    position: relative;
+ 
+}
+.header .box-container .box .slider-content h3{
+    color:white;
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: .9;
+    margin-bottom: 6px;
+    
+}
+
+.header .box-container .box .slider-content h3 span{
+    color: orange;
+}
+.header .box-container .box .slider-content P{
+    font-weight: 400;
+    color: #dbdbdb;
+    width: 100%;
+    margin: 0 0 45px;
+    font-size:1rem;
+    display: block;
+    font-weight: 600;
+    
+}
+.header .box-container .box .slider-content .slider-btn{
+    background-color: orange;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 20px 35px;
+    margin: 0 8px;
+    border: medium none;
+    border-radius: 5px;
+    color: #1c1121;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 20px 44px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap; 
+    position: relative;
+    z-index: 1;
+}
+.header .box-container .box .slider-content .slider-btn::before{
+    content: "";
+    position: absolute;
+    right: -13px;
+    top: 0; 
+    height: 100%;
+    width: 5px;
+    transform: skewX(-16deg);
+    z-index: 1;
+    opacity: 1;
+    background-image: none;
+    bottom: 0;
+    border-radius: 0;
+    left: auto;
+    background-color: #e4a101;
+}
+.header .box-container .box .slider-content .slider-btn::after{
+content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: skewX(-16deg);
+    z-index: -1;
+    opacity: 1;
+    background-image: none;
+    bottom: 0;
+    border-radius: 0;
+    left: auto;
+    background-color: #e4a101;
+}
+.header .box-container .box .slider-content .slider-btn:hover::before{
+    right: -1px;
+    transition: linear .5s;
+}
+
+
+
+@media (max-width: 991.98px){
+
+    .header .box-container .box .slider-content{
+         margin-top: 3rem;
+         text-align: center;
+    }
+    .home-image img{
+        display: none;
+    }
+    .bgimage{
+        height:375px;
+    }
+    .header .box-container .box .slider-content h6{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .header .box-container .box .slider-content h3{
+        font-size: 2.5rem;
+        text-align: center; 
+        color: orange;
+    }
+    .header .box-container .box .slider-content h3 span{
+        color: white;
+    }
+    .header .box-container .box .slider-content P{
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+}

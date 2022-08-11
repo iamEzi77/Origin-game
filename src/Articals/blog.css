@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blog-area{
+    padding: 115px 0 120px 0;
+    display: block;
+}
+.title-style-three{
+    padding-bottom: 35px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.title-style-three h2{
+    color: #2d2b2e;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 750;
+    letter-spacing: -1px;
+}
+.title-style-three h2 span{
+    color: orange;
+}
+.title-style-three p{
+    color: #6c6c6c;
+    margin:0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.title-style-three::before{
+    background-image: url("../images/title_bar02.png");
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 270px;
+    height: 13px;
+    background-repeat: no-repeat;
+    right: 0;
+    margin: 0 auto;
+}
+.blog-area .blog-post{
+    margin-bottom: 4rem;
+}
+.blog-area .blog-post .blog-thumb{
+    margin-bottom: 30px;
+}
+.blog-area .blog-post .blog-thumb img{
+    width: 100%;
+    box-shadow: 0px 5px 10px 0px rgb(11 11 11 / 14%);
+    height: 300px;
+    vertical-align: middle;
+}
+.blog-area .blog-post h4{
+    font-size: 2rem;
+    color: #5a5858;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 750;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-area .blog-post .blog-post-content .blog-meta ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;    
+    align-items: center;
+}
+
+.blog-area .blog-post .blog-post-content .blog-meta ul li{
+    font-size: .7rem;
+    color: #7f7a84;
+    font-style: italic;
+    font-weight: 500;
+    position: relative;
+}
+.blog-area .blog-post .blog-post-content .blog-meta ul li i{
+    margin-right: 8px;
+    color: orange;
+    font-weight: 400;
+    font-size: 1rem;
+    position: relative;
+    bottom: 10%;
+}
+.blog-area .blog-post .blog-post-content .blog-meta ul li .sh::before{
+    content: "/";
+    margin: 0 5px;
+    color: #434344
+}
+.blog-area .blog-post .blog-post-content p{
+    color: #6c6c6c;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 0;
+}

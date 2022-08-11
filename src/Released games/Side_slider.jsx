@@ -1,0 +1,30 @@
+export const Side_slider = [
+    {
+        id:1,
+        img:"Side_slider_img01.jpeg"
+    },
+    {
+        id:2,
+        img:"Side_slider_img02.jpg"
+    },
+    {
+        id:3,
+        img:"Side_slider_img03.jpg"
+    },
+    {
+        id:4,
+        img:"Side_slider_img04.jpeg"
+    },
+    {
+        id:5,
+        img:"Side_slider_img05.jpeg"
+    },
+    {
+        id:6,
+        img:"Side_slider_img06.jpg"
+    },
+    {
+        id:7,
+        img:"Side_slider_img07.jpg"
+    },
+]

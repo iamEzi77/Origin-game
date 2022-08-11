@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.shop-area .shop-item {
+	background-color: rgb(254, 253, 255);
+	box-shadow: 0px 5px 12.09px 0.91px rgba(0, 0, 0, 0.16);
+}
+.shop-area .shop-item .product-thumb img {
+	width: 250px;
+    height: 250px;
+	background-position: center;
+	background-size: cover;
+
+}
+.shop-area .shop-item .product-content {
+	padding: 35px 25px 25px;
+	position: relative;
+}
+.shop-area .shop-item .product-content .product-tag {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -5px;
+	z-index: 1;
+	
+}
+.shop-area .shop-item .product-content .product-tag a{
+	text-decoration: none;
+	font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #1c1121;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    padding: 0 20px
+}
+.shop-area .shop-item .product-content .product-tag a::before{
+	content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: skewX(-20deg);
+    z-index: -1;
+    right: 0;
+    margin: 0 auto;
+	background-color: orange;
+}
+.shop-area .shop-item .product-content h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-size: 16px;
+    margin-bottom: 10px;
+	line-height: 1.2;
+	color: #fff;
+	font-weight: 800;
+}
+.shop-area .shop-item .product-content h4 a{
+	text-decoration: none;
+	color: #fff;
+}
+.product-meta {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.product-price h5 {
+	margin-bottom: 0;
+	font-size: 1.1rem;
+	color: orange;
+	font-weight: 700;
+}
+.product-cart-action a {
+	background: #291b35;
+	border: 1px solid #2c2135;
+	width: 36px;
+	height: 36px;
+	display: block;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 1.2rem;
+	color: orange;
+}
+.product-cart-action a:hover,
+.shop-area.black-bg .product-cart-action a:hover {
+	color: #1c1121;
+	border-color: orange;
+}
+.shop-area.black-bg .shop-item {
+	background-color: #1e1b20;
+}
+.shop-area.black-bg .product-cart-action a {
+	background: #1c1a1d;
+	border: 1px solid #2c2135;
+}
+
+.home-four-shop-area {
+	background-image: url("../images/home_four_shop_bg.jpg");
+	background-position: center;
+	background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+}
+.home-four-shop-area .shop-item {
+    background-color: #1e1b20;
+}
+.home-four-shop-area .product-cart-action a {
+    background: #1c1a1d;
+    border: 1px solid #3d2f48;
+}
+.home-four-shop-area .product-cart-action a:hover {
+    background: #e9a301;
+    border: 1px solid #e9a301;
+}
+.home-four-shop-area .product-content {
+    padding: 40px 25px 25px;
+}
+.home-four-shop-area .product-content h4 {
+    text-transform: uppercase;
+}
+.home-four-title p {
+    margin-bottom: 0;
+    margin-top: 20px;
+	font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #cbcbcb;
+	position: relative;
+}
+.home-four-title {
+	margin-bottom: 6rem;
+}
+.shop-area .section-title h2{
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 0;
+	font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1;
+	color: #fff;
+}
+.shop-area .section-title p::before{
+	background-image: url("../images/title_bar03.png");
+    content: "";
+    position: absolute;
+	top: 180%;
+    left: 0;
+    bottom: 0;
+    width: 270px;
+    height: 13px;
+    background-repeat: no-repeat;
+    right: 0;
+    margin: 0 auto;
+}
+.home-four-title h2 span{
+	color: orange;
+}
